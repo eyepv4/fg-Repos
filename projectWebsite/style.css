@@ -1,0 +1,65 @@
+body {
+    background-color: #4b3f72; /* dark lavender */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+  }
+  
+  h1 {
+    color: #e0d4f7;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #d1c4e9;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .main-image {
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .timer-container {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #e0d4f7;
+  }
+  
+  .timer-display {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+/* Responsive adjustments for the Spotify player */
+.song-embed iframe {
+    width: 100%;
+    height: 152px;
+    max-width: 600px;  /* Maximum width for larger screens */
+    margin: 20px auto;
+  }
+  
+  /* Optional: Adjust timer size on mobile for better readability */
+  .timer-container {
+    font-size: 1em; /* Make font smaller on mobile */
+  }
+  
+  /* Adjust font size on smaller screens */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
